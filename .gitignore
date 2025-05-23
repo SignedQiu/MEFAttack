@@ -1,0 +1,7 @@
+*.pgn
+__pycache__/
+*.npy
+*.pyc
+*.pyo
+.env
+.DS_Store
