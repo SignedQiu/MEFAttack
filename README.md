@@ -1,7 +1,7 @@
 # MEFAttack
 
 ## Overview
-This repository contains the official PyTorch implementation of our paper **Boosting Adversarial Transferability with Efficient Computation via Maximin Expected Flatness**. We propose a novel **Maximin Expected Flatness (MEF) attack** that crafts transferable adversarial examples by enhancing loss surface flatness, achieving superior performance against both standard and defended models. Key Results on ImageNet:
+This repository contains the official PyTorch implementation of our paper **Boosting Adversarial Transferability with Low-Cost Optimization via Maximin Expected Flatness**. We propose a novel **Maximin Expected Flatness (MEF) attack** that crafts transferable adversarial examples by enhancing loss surface flatness, achieving superior performance against both standard and defended models. Key Results on ImageNet:
 
 - 🚀 **Computational Efficiency**  
   At **50% computational cost** (backward passes), MEF consistently outperforms SOTA method [PGN](https://github.com/Trustworthy-AI-Group/PGN) by **+4% average success rate** across 22 heterogeneous models

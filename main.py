@@ -103,7 +103,7 @@ def get_model(net_name, model_dir):
     return model
 
 
-def mef_attack(save_dir, device, source_model_name, epsilon=16/255, step_size=1.6/255, inner_mu=0.9, outer_mu=0.5, gamma=2, kesai=0.2, sample_num=20, iteration_num=20, batch_size=50):
+def mef_attack(save_dir, device, source_model_name, epsilon=16/255, step_size=1.6/255, inner_mu=0.9, outer_mu=0.5, gamma=2, kesai=0.15, sample_num=20, iteration_num=20, batch_size=50):
     
     # prepare dataset
     if source_model_name in ['vitb16', 'vitl32', 'pits', 'mlpmixer', 'resmlp']:
@@ -232,7 +232,7 @@ if __name__ == '__main__':
     parser.add_argument("--inner_mu", type=float, default=0.9)
     parser.add_argument("--outer_mu", type=float, default=0.5)
     parser.add_argument("--gamma", type=float, default=2)
-    parser.add_argument("--kesai", type=float, default=0.2)
+    parser.add_argument("--kesai", type=float, default=0.15)
     parser.add_argument("--sample_num", type=int, default=20)
     parser.add_argument("--iteration_num", type=int, default=20)
     parser.add_argument("--batch_size", type=int, default=50)
