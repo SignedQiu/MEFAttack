@@ -31,7 +31,7 @@ While flatness-enhanced attacks improve adversarial transferability by optimizin
 ### Prepare the dataset and models.
 1. You can download the ImageNet-compatible dataset from [here](https://github.com/yuyang-long/SSA/tree/master/dataset) and put the data in **'./dataset/'**.
 
-2. The normally trained models (i.e., Inc-v3, Inc-v4, IncRes-v2, Res-50, Res-101, Res-100) are from "pretrainedmodels". 
+2. The normally trained models (i.e., Inc-v3, Inc-v4, IncRes-v2, Res-50, Res-101) are from "pretrainedmodels". 
 
 3. The adversarially trained models (i.e, ens3_adv_inc_v3, ens4_adv_inc_v3, ens_adv_inc_res_v2) are from [SSA](https://github.com/yuyang-long/SSA) or [tf_to_torch_model](https://github.com/ylhz/tf_to_pytorch_model). For more detailed information on how to use them, visit these two repositories. You can download the torch_nets_weights and put it to **'./model/'**.
 
