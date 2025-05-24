@@ -27,7 +27,7 @@ While flatness-enhanced attacks improve adversarial transferability by optimizin
 * torchvision==0.13.0
 * tqdm==4.66.5
 
-## Qucik Start
+## Quick Start
 ### Prepare the dataset and models.
 1. You can download the ImageNet-compatible dataset from [here](https://github.com/yuyang-long/SSA/tree/master/dataset) and put the data in **'./dataset/'**.
 
