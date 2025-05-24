@@ -40,7 +40,7 @@ While flatness-enhanced attacks improve adversarial transferability by optimizin
 ```
 python main.py --mode="attack"
 ```
-1. The generated adversarial examples would be stored in the directory **./results**. Then run the file **main.py** in evaluation mode to get the attack success rate:
+2. The generated adversarial examples would be stored in the directory **./results**. Then run the file **main.py** in evaluation mode to get the transfer attack success rate:
 ```
 python main.py --mode="eval"
 ```
