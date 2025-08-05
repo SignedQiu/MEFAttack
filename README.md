@@ -22,8 +22,6 @@ While flatness-enhanced attacks improve adversarial transferability by optimizin
 * joblib==1.3.2
 * numpy==1.24.4
 * pandas==2.0.3
-* Pillow==8.4.0
-* Pillow==11.2.1
 * pretrainedmodels==0.7.4
 * timm==0.9.11
 * torch==1.12.0
