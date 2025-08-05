@@ -16,7 +16,7 @@ This repository contains the official PyTorch implementation of our paper [**Boo
   ​Validated by [TransferAttack](https://github.com/Trustworthy-AI-Group/TransferAttack) framework, MEF ​​surpasses all 22 gradient-based attacks​​ in the benchmark, establishing itself as the **new SOTA in adversarial transferability**
 
 ## Motivation  
-While flatness-enhanced attacks improve adversarial transferability by optimizing loss landscape geometry, existing methods suffer from fragmented flatness definitions and unproven theoretical connections, leading to suboptimal performance with high computational costs. We address these limitations by establishing the first theoretical link between multi-order flatness and transferability, revealing zeroth-order flatness as the dominant transferability source. Our Maximin Expected Flatness (MEF) attack leverages this insight through gradient-guided conditional sampling and balanced optimization.
+While flatness-enhanced attacks improve adversarial transferability by optimizing loss landscape geometry, existing methods suffer from **fragmented flatness definitions** and **unproven theoretical connections**, leading to suboptimal performance with high computational costs. We address these limitations by establishing the first theoretical link between multi-order flatness and transferability, revealing zeroth-order flatness as the dominant transferability source. Our Maximin Expected Flatness (MEF) attack leverages this insight through **gradient-guided conditional sampling** and **balanced optimization**.
 
 ## Requirements
 * joblib==1.3.2
