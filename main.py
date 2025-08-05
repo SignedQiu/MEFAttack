@@ -51,15 +51,15 @@ def get_model(net_name, model_dir):
         model = torch.nn.Sequential(Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
                                 torchvision.models.vit_l_32(weights=("pretrained", torchvision.models.ViT_L_32_Weights.IMAGENET1K_V1)).eval().cuda())
     elif net_name == 'pits':
-        pit_model = timm.models.pit.pit_s_224(pretrained=False)
+        pit_model = timm.models.pit.pit_s_224(pretrained=True)
         model = torch.nn.Sequential(Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
                                 pit_model.eval().cuda())
     elif net_name == 'mlpmixer':
-        mlpmixer_model = timm.models.mlp_mixer.mixer_l16_224(pretrained=False)
+        mlpmixer_model = timm.models.mlp_mixer.mixer_l16_224(pretrained=True)
         model = torch.nn.Sequential(Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
                                 mlpmixer_model.eval().cuda())
     elif net_name == 'resmlp':
-        resmlp_model = timm.models.mlp_mixer.resmlp_12_224(pretrained=False)
+        resmlp_model = timm.models.mlp_mixer.resmlp_12_224(pretrained=True)
         model = torch.nn.Sequential(Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
                                 resmlp_model.eval().cuda())
     elif net_name == "dense_121":
